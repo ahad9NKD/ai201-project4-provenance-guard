@@ -246,19 +246,18 @@ Specific instance 3:
 
 ## Portfolio Walkthrough
 
-Use this as a short recording script:
+Short walkthrough reference:
 
-1. Show `POST /submit` with a sample text and point out the returned `content_id`, confidence score, label, and both signal outputs.
-2. Show `GET /log` and explain how each decision is written as structured JSON.
-3. Show one appeal with `POST /appeal` and note that the status becomes `under_review`.
-4. Mention the two signals and why they are different: one semantic, one structural.
-5. Call out the rate limit and the reason for the conservative confidence bands.
-
-Keep the walkthrough short and conversational. The README contains the detailed evidence; the recording only needs to show the system working end to end.
+- [Demo video link](./demo_video.md)
+- Show `POST /submit` with a sample text.
+- Show `GET /log` with the structured audit entry.
+- Show `POST /appeal` and the `under_review` status.
+- Briefly mention the two signals, the uncertainty band, and the rate limit.
 
 ## Project Files
 
 - [planning.md](/Users/abdoulahaddiouck/ai201-project4-provenance-guard/planning.md)
+- [demo_video.md](/Users/abdoulahaddiouck/ai201-project4-provenance-guard/demo_video.md)
 - [app.py](/Users/abdoulahaddiouck/ai201-project4-provenance-guard/app.py)
 - [scoring.py](/Users/abdoulahaddiouck/ai201-project4-provenance-guard/scoring.py)
 - [signal_one.py](/Users/abdoulahaddiouck/ai201-project4-provenance-guard/signal_one.py)
